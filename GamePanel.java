@@ -32,8 +32,6 @@ public class GamePanel extends JPanel implements Runnable {
     //A thread does not do something special in itself
     //when you want to do something again and again, E.g. Drawing screen 60 times frames per second
 
-    Player player = new Player(this, keyH); //providing our object(this classe's) to Player class
-    //Then we can use GameHandler and KeyHandler from the Player class.
 
     int playerXcoordinate = 100;
     int playerYcoordinate = 100;
